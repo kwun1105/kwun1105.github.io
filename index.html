@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal academic website of Dohyun Kwun">
+  <meta name="theme-color" content="#f4f6fb">
+  <title>Dohyun Kwun</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="#top" aria-label="Dohyun Kwun home">
+        <span class="brand-mark" aria-hidden="true">DK</span>
+        <span class="brand-name">Dohyun Kwun</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span>
+        <span class="sr-only">Open menu</span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#education">Education</a>
+        <a href="#patent-project">Patent &amp; Project</a>
+        <a href="#experience">Experience</a>
+      </nav>
+
+      <button class="theme-toggle" type="button" aria-label="Toggle color theme" title="Toggle color theme">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="kicker">Electrical Engineering · UNIST</p>
+        <h1>Dohyun<br>Kwun</h1>
+        <p class="credential">Combined M.S./Ph.D. in Electrical Engineering · Expected Aug. 2026</p>
+
+        <!-- Optional biography is intentionally left blank. Add it here later. -->
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="mailto:kwun1105@unist.ac.kr">Contact</a>
+        </div>
+
+        <div class="quick-facts" aria-label="Quick facts">
+          <div>
+            <span>Location</span>
+            <strong>Ulsan, Republic of Korea</strong>
+          </div>
+          <div>
+            <span>Affiliation</span>
+            <strong>UNIST</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Research focus graphic">
+        <div class="signal-card">
+          <div class="signal-grid" aria-hidden="true"></div>
+          <div class="orbit orbit-a" aria-hidden="true"></div>
+          <div class="orbit orbit-b" aria-hidden="true"></div>
+          <div class="core" aria-hidden="true">
+            <svg class="core-symbol" viewBox="0 0 120 120">
+              <path d="M18 62 C29 35, 39 35, 50 62 S71 89, 82 62 S102 35, 112 62"
+                    fill="none" stroke="currentColor" stroke-width="7"
+                    stroke-linecap="round"/>
+              <circle cx="60" cy="62" r="8" fill="currentColor"/>
+            </svg>
+          </div>
+          <span class="signal-label label-6g">6G</span>
+          <span class="signal-label label-sdr">SDR</span>
+          <span class="signal-label label-ml">ML</span>
+          <div class="visual-footer">
+            <div class="signal-caption">
+              <span>Research profile</span>
+              <strong>Intelligent wireless communication systems</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="content-section section-shell">
+      <div class="section-intro reveal">
+        <span class="section-index">01</span>
+        <div>
+          <p class="kicker">Focus areas</p>
+          <h2>Research Interests</h2>
+        </div>
+      </div>
+
+      <div class="interest-grid">
+        <article class="interest-card reveal">
+          <div class="interest-card-top">
+            <span class="interest-number">01</span>
+            <div class="interest-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" role="img" aria-label="Wireless antenna icon">
+              <circle cx="24" cy="27" r="3.2" fill="currentColor" stroke="none"/>
+              <path d="M24 30.5V40M18.5 40h11"/>
+              <path d="M17.2 21.2a9.6 9.6 0 0 1 13.6 0"/>
+              <path d="M11.7 15.7a17.4 17.4 0 0 1 24.6 0"/>
+            </svg>
+            </div>
+          </div>
+          <h3>6G communication</h3>
+        </article>
+        <article class="interest-card reveal">
+          <div class="interest-card-top">
+            <span class="interest-number">02</span>
+            <div class="interest-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" role="img" aria-label="Connected radio access networks icon">
+              <path d="M24 13v8M14 31l7-4M34 31l-7-4"/>
+              <circle cx="24" cy="25" r="5"/>
+              <rect x="19" y="6" width="10" height="7" rx="2"/>
+              <rect x="6" y="31" width="12" height="8" rx="2"/>
+              <rect x="30" y="31" width="12" height="8" rx="2"/>
+              <circle cx="24" cy="25" r="1.7" fill="currentColor" stroke="none"/>
+            </svg>
+            </div>
+          </div>
+          <h3>Multi-RAN orchestration</h3>
+        </article>
+        <article class="interest-card reveal">
+          <div class="interest-card-top">
+            <span class="interest-number">03</span>
+            <div class="interest-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" role="img" aria-label="Information signal icon">
+              <path d="M6 30c4.2 0 4.2-12 8.4-12s4.2 12 8.4 12 4.2-12 8.4-12 4.2 12 8.4 12"/>
+              <path d="M8 39h32" opacity=".35"/>
+              <circle cx="8" cy="10" r="2.2" fill="currentColor" stroke="none"/>
+              <circle cx="17" cy="10" r="2.2"/>
+              <circle cx="26" cy="10" r="2.2" fill="currentColor" stroke="none"/>
+              <circle cx="35" cy="10" r="2.2"/>
+            </svg>
+            </div>
+          </div>
+          <h3>Information theory</h3>
+        </article>
+        <article class="interest-card reveal">
+          <div class="interest-card-top">
+            <span class="interest-number">04</span>
+            <div class="interest-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" role="img" aria-label="Machine learning and wireless icon">
+              <path d="M9 14l10 7M9 34l10-7M19 21v6M19 21l10-7M19 27l10 7"/>
+              <circle cx="8" cy="13" r="3"/>
+              <circle cx="8" cy="35" r="3"/>
+              <circle cx="20" cy="24" r="4"/>
+              <circle cx="30" cy="13" r="3"/>
+              <circle cx="30" cy="35" r="3"/>
+              <path d="M35 20a8 8 0 0 1 0 8M39 16a13 13 0 0 1 0 16"/>
+            </svg>
+            </div>
+          </div>
+          <h3>Machine learning for wireless communications</h3>
+        </article>
+        <article class="interest-card reveal">
+          <div class="interest-card-top">
+            <span class="interest-number">05</span>
+            <div class="interest-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" role="img" aria-label="Shared spectrum icon">
+              <path d="M6 19c4 0 4-8 8-8s4 8 8 8 4-8 8-8 4 8 8 8 4-8 8-8"/>
+              <path d="M6 32c4 0 4-8 8-8s4 8 8 8 4-8 8-8 4 8 8 8 4-8 8-8" opacity=".55"/>
+              <path d="M22 8v32M26 8v32" opacity=".22"/>
+            </svg>
+            </div>
+          </div>
+          <h3>Spectrum sharing</h3>
+        </article>
+        <article class="interest-card reveal">
+          <div class="interest-card-top">
+            <span class="interest-number">06</span>
+            <div class="interest-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" role="img" aria-label="Software-defined radio hardware icon">
+              <rect x="11" y="14" width="25" height="24" rx="4"/>
+              <path d="M17 10v4M24 10v4M31 10v4M17 38v4M24 38v4M31 38v4"/>
+              <path d="M7 20h4M7 27h4M7 34h4M36 20h4M36 27h4M36 34h4"/>
+              <path d="M18 31V21h7c4 0 4 6 0 6h-7M29 21h2.5"/>
+              <path d="M37 12c3 1.3 4.8 3.6 5.5 7M36 7c5.7 1.9 9.2 6.1 10 12" opacity=".7"/>
+            </svg>
+            </div>
+          </div>
+          <h3>SDR / USRP implementation</h3>
+        </article>
+      </div>
+    </section>
+
+    <section id="publications" class="content-section section-shell">
+      <div class="section-intro reveal">
+        <span class="section-index">02</span>
+        <div>
+          <p class="kicker">Selected work</p>
+          <h2>Publications</h2>
+        </div>
+      </div>
+
+      <div class="publication-list">
+        <article class="publication-item reveal">
+          <div class="publication-year">2026</div>
+          <div class="publication-content">
+            <p class="publication-type">Journal article · IEEE Communications Letters</p>
+            <h3>Achievable Rate Analysis for Structure-Aware Interference Channels</h3>
+            <p><strong>Dohyun Kwun</strong>, Jin-Ho Chung, and Sung Whan Yoon</p>
+          </div>
+          <a class="publication-link" href="https://doi.org/10.1109/LCOMM.2026.3688595" target="_blank" rel="noopener noreferrer" aria-label="Open DOI for Achievable Rate Analysis for Structure-Aware Interference Channels">DOI ↗</a>
+        </article>
+
+        <article class="publication-item reveal">
+          <div class="publication-year">2024</div>
+          <div class="publication-content">
+            <p class="publication-type">Conference paper · IEEE WoWMoM</p>
+            <h3>RiSi: Spectro-temporal RAN-agnostic Modulation Identification for OFDMA Signals</h3>
+            <p>Daulet Kurmantayev, <strong>Dohyun Kwun</strong>, Hyoil Kim, and Sung Whan Yoon</p>
+          </div>
+          <a class="publication-link" href="https://doi.org/10.1109/WoWMoM60985.2024.00042" target="_blank" rel="noopener noreferrer" aria-label="Open DOI for RiSi">DOI ↗</a>
+        </article>
+
+        <article class="publication-item reveal">
+          <div class="publication-year">2023</div>
+          <div class="publication-content">
+            <p class="publication-type">Journal article · Physical Communication</p>
+            <h3>Analysis and Optimization for Non-Orthogonal Pilot Sequence Sets in Massive MIMO Systems</h3>
+            <p>Hong-Jae Lee, <strong>Dohyun Kwun</strong>, Sung Whan Yoon, Jin-Ho Chung, and Seok-Ki Ahn</p>
+          </div>
+          <a class="publication-link" href="https://doi.org/10.1016/j.phycom.2023.102169" target="_blank" rel="noopener noreferrer" aria-label="Open DOI for non-orthogonal pilot sequence sets">DOI ↗</a>
+        </article>
+
+        <article class="publication-item reveal">
+          <div class="publication-year">2019</div>
+          <div class="publication-content">
+            <p class="publication-type">Journal article · IEEE Access</p>
+            <h3>User Recognition Based on Human Body Impulse Response: A Feasibility Study</h3>
+            <p>Jin-Ho Chung, Taewook Kang, <strong>Dohyun Kwun</strong>, Jae-Jin Lee, and Seong-Eun Kim</p>
+          </div>
+          <a class="publication-link" href="https://doi.org/10.1109/ACCESS.2019.2959901" target="_blank" rel="noopener noreferrer" aria-label="Open DOI for user recognition study">DOI ↗</a>
+        </article>
+      </div>
+    </section>
+
+
+
+    <section id="education" class="content-section section-shell">
+      <div class="section-intro reveal">
+        <span class="section-index">03</span>
+        <div>
+          <p class="kicker">Academic background</p>
+          <h2>Education</h2>
+        </div>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <time>Mar. 2019 — Aug. 2026</time>
+          <div>
+            <h3>Combined M.S./Ph.D. in Electrical Engineering</h3>
+            <p>Ulsan National Institute of Science and Technology (UNIST)</p>
+            <dl class="detail-list">
+              <div><dt>GPA</dt><dd>3.99 / 4.30</dd></div>
+              <div><dt>Dissertation</dt><dd>Toward Intelligent RAN-Agnostic Communications for Multi-RAN Coexistence</dd></div>
+              <div><dt>Advisor</dt><dd>Prof. Sung Whan Yoon</dd></div>
+            </dl>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <time>Mar. 2015 — Feb. 2019</time>
+          <div>
+            <h3>B.S. in Electrical Engineering</h3>
+            <p>Ulsan National Institute of Science and Technology (UNIST)</p>
+            <dl class="detail-list">
+              <div><dt>GPA</dt><dd>3.15 / 4.30</dd></div>
+            </dl>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="patent-project" class="content-section section-shell">
+      <div class="section-intro reveal">
+        <span class="section-index">04</span>
+        <div>
+          <p class="kicker">Intellectual property &amp; funded research</p>
+          <h2>Patent &amp; Project</h2>
+        </div>
+      </div>
+
+      <div class="experience-grid record-grid">
+        <article class="feature-panel record-card reveal">
+          <div class="panel-heading">
+            <span>Patent</span>
+            <span>Filed in Korea</span>
+          </div>
+
+          <p class="record-label">Application</p>
+          <h3>Reinforcement Learning-Based Combustion Systems Learning and Method Thereof</h3>
+          <p class="record-authors">
+            Sung Whan Yoon, Jin-Hyuk Lim, <strong>Dohyun Kwun</strong>, and Jae-Jun Lee
+          </p>
+
+          <dl class="detail-list record-details">
+            <div>
+              <dt>Application No.</dt>
+              <dd>KR 10-2023-0098373</dd>
+            </div>
+            <div>
+              <dt>Application Date</dt>
+              <dd>July 27, 2023</dd>
+            </div>
+          </dl>
+        </article>
+
+        <article class="feature-panel record-card reveal">
+          <div class="panel-heading">
+            <span>Research project</span>
+            <span>Jan.–Dec. 2022</span>
+          </div>
+
+          <p class="record-label">Funded project</p>
+          <h3>Development of a Reinforcement Learning Solution Using Real-World Data for High-Efficiency and High-Reliability Combustion Systems</h3>
+          <p class="record-funder">
+            Funded by Samyang Corporation and Ulsan National Institute of Science and Technology (UNIST)
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="content-section section-shell">
+      <div class="section-intro reveal">
+        <span class="section-index">05</span>
+        <div>
+          <p class="kicker">Additional information</p>
+          <h2>Experience &amp; Skills</h2>
+        </div>
+      </div>
+
+      <div class="experience-grid">
+        <article class="feature-panel reveal">
+          <div class="panel-heading">
+            <span>Teaching</span>
+            <span>UNIST</span>
+          </div>
+          <ul class="course-list">
+            <li><span>Electrical Engineering Programming</span><time>Spring 2022</time></li>
+            <li><span>Advanced Information Systems</span><time>Fall 2020</time></li>
+            <li><span>Communications and Information Theory</span><time>Spring 2020</time></li>
+            <li><span>Introduction to Probability and Random Process</span><time>Fall 2019</time></li>
+          </ul>
+        </article>
+
+        <article class="feature-panel reveal">
+          <div class="panel-heading">
+            <span>Technical skills</span>
+            <span>Selected</span>
+          </div>
+          <div class="skill-cloud">
+            <span>Python</span>
+            <span>MATLAB</span>
+            <span>SDR / USRP</span>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <p>© <span id="current-year"></span> Dohyun Kwun</p>
+  </footer>
+</body>
+</html>
